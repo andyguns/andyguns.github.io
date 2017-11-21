@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.button{
+	    font-family: sans Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	    margin: 30px auto;
+	    }
+
+body {
+	
+	background-image:url(beelden/hemel.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+.imgPositie {
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	
+}
+.containerpositie{
+	position: absolute;
+	display: inline-block;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0;
+	width: 500px;
+	height: auto;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.buttonopmaak{
+	display: inline-block;
+	color: white;
+	padding: 15px 32px;
+	background-color: purple;;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+.buttonopmaak{
+	margin-right: 50px;
+	border: 3px solid white;
+}
+
+.buttonopmaak:hover{
+	background: black ;
+}
+a:hover{
+	color: aqua ;
+}
+a{
+	text-decoration: none;
+	color: #2C376F;
+	font-weight:bold;
+}
+
